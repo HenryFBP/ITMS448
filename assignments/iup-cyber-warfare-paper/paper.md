@@ -95,13 +95,19 @@ The Tor browser is a great tool for anonymizing oneself, but it can be misused b
 
 In order to improve the security and reliability of the Tor Browser, it must be more independent of the technical decisions made about Firefox and it must not rely upon centralized sources for security decisions.
 
-The Tor Browser, as well as Mozilla and Web Engines in general, must pursue robust ROP binary exploit defenses[^defending_tor_browser_anon], because ROP binary exploits have been steadily growing in popularity[^see_google_scholar_rop_bin_exp] and many researchers believe they are going to be relevant as long as memory management issues exist[^cve_heap_spray].
+The Tor Browser, as well as Mozilla and Web Engines in general, must pursue robust ROP binary exploit defenses[^defending_tor_browser_anon][^randheap], because ROP binary exploits have been steadily growing in popularity[^see_google_scholar_rop_bin_exp] and many researchers believe they are going to be relevant[^heap_spray_survival] as long as memory management issues exist[^cve_heap_spray].
 
 The users of the Tor Browser need to have consistent and dead-simple interactions with the Tor Browser to stop usability issues from preventing them from using the browser properly.
 
 It must not be ambiguous or difficult for users to determine the status of their connection, the security of any particular webpage, or if they must update their browser to fix a security issue if the maintainers of the Tor Browser want their user base to be secure.
 
 [^cve_heap_spray]: <https://nvd.nist.gov/vuln/detail/CVE-2018-18500>
+
+[^heap_spray_survival]: Joel Coffman, Daniel M. Kelly, Christopher C. Wellons, and Andrew S. Gearhart. 2016. ROP Gadget Prevalence and Survival under Compiler-based Binary Diversification Schemes. In Proceedings of the 2016 ACM Workshop on Software PROtection (SPRO '16). ACM, New York, NY, USA, 15-26. DOI: https://doi.org/10.1145/2995306.2995309
+
+
+[^randheap]: A. Jangda and M. Mishra, "RandHeap: Heap Randomization for Mitigating Heap Spray Attacks in Virtual Machines," 2017 15th Annual Conference on Privacy, Security and Trust (PST), Calgary, AB, 2017, pp. 169-16909.
+doi: 10.1109/PST.2017.00028
 
 [^defending_tor_browser_anon]: Conti, Mauro & Crane, Stephen & Frassetto, Tommaso & Homescu, Andrei & Koppen, Georg & Larsen, Per & Liebchen, Christopher & Perry, Mike & Sadeghi, Ahmad-Reza. (2016). Selfrando: Securing the Tor Browser against De-anonymization Exploits. Proceedings on Privacy Enhancing Technologies. 2016. 10.1515/popets-2016-0050.
 
