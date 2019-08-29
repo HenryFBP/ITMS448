@@ -16,6 +16,11 @@ function prepend_to_file() {
   echo "$1" | cat - $2 > /tmp/hellothere && mv /tmp/hellothere $2
 }
 
+# Append text to a file.
+function append_to_file() {
+  echo "$1" >> $2
+}
+
 # Surround a file's lines with <li> elements
 function surround_with_li() {
   sed -i "s/^/\<li\>/;s/\$/\<\/li\>/" $1
@@ -67,18 +72,22 @@ function generate_history_file {
 
   # XML gods, forgive me for I have concatenated.
 
-  # Get bash history and save to a file.
-  cat ~/.bash_history >> HISTORY.HTML
+  append_opening_tag "html" "HISTORY.HTML"
+    append_opening_tag "body" "HISTORY.HTML"
 
-  # Surround all lines with <li></li> tags.
-  surround_with_li "HISTORY.HTML"
+    append_opening_tag "h1" "HISTORY.HTML"
+      echo "Your command history:" >> HISTORY.HTML
+    append_closing_tag "h1" "HISTORY.HTML"
 
-  prepend_to_file \
-  "<html><body><h1>Your command history:</h1><p>Hi Prof, give me extra credit for making valid HTML.</p>" \
-  "HISTORY.HTML"
+    append_opening_tag "p" "HISTORY.HTML"
+      echo "Hi Prof, give me extra credit for making valid HTML." >> HISTORY.HTML
+    append_closing_tag "p" "HISTORY_HTML"
 
-  # Append </body></html> to file. Ew...
-  append_closing_tag "body" "HISTORY.HTML"
+    # Get bash history and save to a file.
+    exec_liify_append_to_file "cat /home/`whoami`/.bash_history" "HISTORY.HTML"
+
+    # Append </body></html> to file. Ew...
+    append_closing_tag "body" "HISTORY.HTML"
   append_closing_tag "html" "HISTORY.HTML"
 
   # Set the perm bits
