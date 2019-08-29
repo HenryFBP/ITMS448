@@ -54,9 +54,17 @@ function generate_systeminfo_file {
     echo "System information:" >> SYSTEMINFO.HTML
   append_closing_tag "h1" "SYSTEMINFO.HTML"
 
+  append_opening_tag "h2" "SYSTEMINFO.HTML"
+    echo "Kernel info:" >> SYSTEMINFO.HTML
+  append_closing_tag "h2" "SYSTEMINFO.HTML"
+
   append_opening_tag "p" "SYSTEMINFO.HTML"
     uname -a >> SYSTEMINFO.HTML
   append_closing_tag "p" "SYSTEMINFO.HTML"
+
+  append_opening_tag "h2" "SYSTEMINFO.HTML"
+    echo "CPU info:" >> SYSTEMINFO.HTML
+  append_closing_tag "h2" "SYSTEMINFO.HTML"
 
   append_opening_tag "ul" "SYSTEMINFO.HTML"
     exec_liify_append_to_file "cat /proc/cpuinfo" "SYSTEMINFO.HTML"
@@ -94,9 +102,6 @@ function generate_history_file {
     append_closing_tag "body" "HISTORY.HTML"
   append_closing_tag "html" "HISTORY.HTML"
 
-  # Set the perm bits
-  #      RRR
-  chmod 0444 HISTORY.HTML
 }
 
 echo "This script will perform all of the steps required by this homework requirement."
@@ -120,8 +125,14 @@ mkdir $WORK_DIR/FILES
 pushd $WORK_DIR/FILES
 
   generate_history_file
+  #-r- -r- -r-
+  chmod 444 HISTORY.HTML
 
   generate_systeminfo_file
+  # -r- -r- rwx
+  chmod 447 SYSTEMINFO.HTML
+
+
 
 popd
 
