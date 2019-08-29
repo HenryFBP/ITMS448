@@ -2,9 +2,38 @@
 
 WORK_DIR=out/LNI
 
+# Prepend text to a file.
+function prepend_to_file() {
+  echo "$1" | cat - $2 > /tmp/hellothere && mv /tmp/hellothere $2
+}
+
 # Surround a file's lines with <li> elements
 function surround_with_li() {
   sed -i "s/^/\<li\>/;s/\$/\<\/li\>/" $1
+}
+
+
+# Append a closing HTML tag to a file.
+function append_closing_tag() {
+  echo "</$1>" >> $2
+}
+
+# Append an opening HTML tag to a file.
+function append_opening_tag() {
+  echo "<$1>" >> $2
+}
+
+
+
+function generate_systeminfo_file {
+  echo "Saving system into to an HTML file."
+
+  touch SYSTEMINFO.HTML
+
+  cat /proc/cpuinfo >> SYSTEMINFO.HTML
+
+  surround_with_li "SYSTEMINFO.HTML"
+
 }
 
 function generate_history_file {
@@ -20,12 +49,15 @@ function generate_history_file {
   # Surround all lines with <li></li> tags.
   surround_with_li "HISTORY.HTML"
 
-  # Prepend <html><body> to file
-  sed -i '1s;^;\<html\>\<body\>\<h1\>Your command history:\<\/h1\>\<p\>Hi Prof, can I have extra credit for creating valid HTML?\<\/p\>;' HISTORY.HTML
+  prepend_to_file \
+  "<html><body><h1>Your command history:</h1><p>Hi Prof, give me extra credit for making valid HTML.</p>" \
+  "HISTORY.HTML"
 
   # Append </body></html> to file. Ew...
-  echo "</body></html>" >> HISTORY.HTML
+  append_closing_tag "body" "HISTORY.HTML"
+  append_closing_tag "html" "HISTORY.HTML"
 
+  # Set the perm bits
   #      RRR
   chmod 0444 HISTORY.HTML
 }
@@ -57,5 +89,7 @@ fi
 pushd $WORK_DIR/FILES
 
   generate_history_file
+
+  generate_systeminfo_file
 
 popd
