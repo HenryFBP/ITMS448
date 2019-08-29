@@ -42,8 +42,6 @@ function append_opening_tag() {
   echo "<$1>" >> $2
 }
 
-
-
 function generate_systeminfo_file {
   echo "Saving system into to an HTML file."
 
@@ -60,8 +58,12 @@ function generate_systeminfo_file {
     uname -a >> SYSTEMINFO.HTML
   append_closing_tag "p" "SYSTEMINFO.HTML"
 
+  append_opening_tag "ul" "SYSTEMINFO.HTML"
+    exec_liify_append_to_file "cat /proc/cpuinfo" "SYSTEMINFO.HTML"
+  append_opening_tag "ul" "SYSTEMINFO.HTML"
 
-  exec_liify_append_to_file "cat /proc/cpuinfo" "SYSTEMINFO.HTML"
+  append_closing_tag "html" "SYSTEMINFO.HTML"
+  append_closing_tag "body" "SYSTEMINFO.HTML"
 
 }
 
@@ -81,10 +83,12 @@ function generate_history_file {
 
     append_opening_tag "p" "HISTORY.HTML"
       echo "Hi Prof, give me extra credit for making valid HTML." >> HISTORY.HTML
-    append_closing_tag "p" "HISTORY_HTML"
+    append_closing_tag "p" "HISTORY.HTML"
 
-    # Get bash history and save to a file.
-    exec_liify_append_to_file "cat /home/`whoami`/.bash_history" "HISTORY.HTML"
+    append_opening_tag "ol" "HISTORY.HTML"
+      # Get bash history and save to a file.
+      exec_liify_append_to_file "cat /home/`whoami`/.bash_history" "HISTORY.HTML"
+    append_closing_tag "ol" "HISTORY.HTML"
 
     # Append </body></html> to file. Ew...
     append_closing_tag "body" "HISTORY.HTML"
