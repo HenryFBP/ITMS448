@@ -2,6 +2,15 @@
 
 WORK_DIR=out/LNI
 
+function show_tree {
+  if hash tree 2>/dev/null; then
+    echo "Directory tree:"
+    tree $WORK_DIR
+  else
+    echo "Run 'apt install tree' or 'yum install tree' to use the 'tree' command."
+  fi
+}
+
 # Prepend text to a file.
 function prepend_to_file() {
   echo "$1" | cat - $2 > /tmp/hellothere && mv /tmp/hellothere $2
@@ -10,6 +19,11 @@ function prepend_to_file() {
 # Surround a file's lines with <li> elements
 function surround_with_li() {
   sed -i "s/^/\<li\>/;s/\$/\<\/li\>/" $1
+}
+
+# Given a string, surround it with <li> elements and append it to a file.
+function exec_liify_append_to_file() {
+  eval '$1 | sed "s/^/\<li\>/;s/\$/\<\/li\>/" >> $2'
 }
 
 
@@ -30,9 +44,19 @@ function generate_systeminfo_file {
 
   touch SYSTEMINFO.HTML
 
-  cat /proc/cpuinfo >> SYSTEMINFO.HTML
+  append_opening_tag "html" "SYSTEMINFO.HTML"
+  append_opening_tag "body" "SYSTEMINFO.HTML"
 
-  surround_with_li "SYSTEMINFO.HTML"
+  append_opening_tag "h1" "SYSTEMINFO.HTML"
+    echo "System information:" >> SYSTEMINFO.HTML
+  append_closing_tag "h1" "SYSTEMINFO.HTML"
+
+  append_opening_tag "p" "SYSTEMINFO.HTML"
+    uname -a >> SYSTEMINFO.HTML
+  append_closing_tag "p" "SYSTEMINFO.HTML"
+
+
+  exec_liify_append_to_file "cat /proc/cpuinfo" "SYSTEMINFO.HTML"
 
 }
 
@@ -79,12 +103,6 @@ mkdir $WORK_DIR/SCRIPTS/SHELL_BASH
 
 mkdir $WORK_DIR/FILES
 
-if hash tree 2>/dev/null; then
-  echo "Created this dir tree:"
-  tree $WORK_DIR
-else
-  echo "Run 'apt install tree' or 'yum install tree' to use the 'tree' command."
-fi
 
 pushd $WORK_DIR/FILES
 
@@ -93,3 +111,5 @@ pushd $WORK_DIR/FILES
   generate_systeminfo_file
 
 popd
+
+show_tree
