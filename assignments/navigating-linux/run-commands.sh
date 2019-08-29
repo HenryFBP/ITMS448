@@ -7,6 +7,29 @@ function surround_with_li() {
   sed -i "s/^/\<li\>/;s/\$/\<\/li\>/" $1
 }
 
+function generate_history_file {
+  echo "Saving command history to an HTML file."
+
+  touch HISTORY.HTML
+
+  # XML gods, forgive me for I have concatenated.
+
+  # Get bash history and save to a file.
+  cat ~/.bash_history >> HISTORY.HTML
+
+  # Surround all lines with <li></li> tags.
+  surround_with_li "HISTORY.HTML"
+
+  # Prepend <html><body> to file
+  sed -i '1s;^;\<html\>\<body\>\<h1\>Your command history:\<\/h1\>\<p\>Hi Prof, can I have extra credit for creating valid HTML?\<\/p\>;' HISTORY.HTML
+
+  # Append </body></html> to file. Ew...
+  echo "</body></html>" >> HISTORY.HTML
+
+  #      RRR
+  chmod 0444 HISTORY.HTML
+}
+
 echo "This script will perform all of the steps required by this homework requirement."
 
 if [ -d $WORK_DIR ]; then
@@ -33,25 +56,6 @@ fi
 
 pushd $WORK_DIR/FILES
 
-  echo "Saving command history to an HTML file."
-
-  touch HISTORY.HTML
-
-  #TODO: Set perms on file.
-
-  # XML gods, forgive me for I have concatenated.
-
-  # Get bash history and save to a file.
-  cat ~/.bash_history >> HISTORY.HTML
-
-  # Surround all lines with <li></li> tags.
-  surround_with_li "HISTORY.HTML"
-
-  # Prepend <html><body> to file
-  sed -i '1s;^;\<html\>\<body\>\<h1\>Your command history:\<\/h1\>\<p\>Hi Prof, can I have extra credit for creating valid HTML?\<\/p\>;' HISTORY.HTML
-
-  # Append </body></html> to file. Ew...
-  echo "</body></html>" >> HISTORY.HTML
-
+  generate_history_file
 
 popd
