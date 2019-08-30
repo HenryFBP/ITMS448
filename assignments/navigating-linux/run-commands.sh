@@ -75,6 +75,37 @@ function generate_systeminfo_html {
 
 }
 
+# Haha, I included the spelling mistake.
+function generate_systeminifo_file {
+
+  FILENAME="SYSTEMINIFO.TXT"
+
+  echo "Saving system info to a file."
+
+  echo "SYSTEM INFO:" >> $FILENAME
+  uname -a >> $FILENAME
+
+  echo "CALENDAR INFO:" >> $FILENAME
+  cal >> $FILENAME
+
+  echo "DATE:"  >> $FILENAME
+  date >> $FILENAME
+
+  echo "BLOCK DEVICES:"  >> $FILENAME
+  lsblk >> $FILENAME
+
+  # 3 other commands
+  echo "CPU INFO:" >> $FILENAME
+  cat /proc/cpuinfo >> $FILENAME
+
+  echo "MEMORY INFO:" >> $FILENAME
+  cat /proc/meminfo >> $FILENAME
+
+  echo "PROCESSES:" >> $FILENAME
+  ps -ax >> $FILENAME
+
+}
+
 function generate_history_html {
   echo "Saving command history to an HTML file."
 
@@ -125,14 +156,19 @@ mkdir $WORK_DIR/FILES
 pushd $WORK_DIR/FILES
 
   generate_history_html
-  #r-- r-- r--
+  # 4-- 4-- 4--
+  # r-- r-- r--
   chmod 444 HISTORY.HTML
 
   generate_systeminfo_html
+  # 4-- 4-- 421
   # r-- r-- rwx
   chmod 447 SYSTEMINFO.HTML
 
-
+  generate_systeminifo_file
+  # 42- 42- 4--
+  # rw- rw- r--
+  chmod 664 SYSTEMINIFO.TXT
 
 popd
 
