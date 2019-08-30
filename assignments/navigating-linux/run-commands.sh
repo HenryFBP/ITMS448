@@ -125,11 +125,11 @@ mkdir $WORK_DIR/FILES
 pushd $WORK_DIR/FILES
 
   generate_history_file
-  #-r- -r- -r-
+  #r-- r-- r--
   chmod 444 HISTORY.HTML
 
   generate_systeminfo_file
-  # -r- -r- rwx
+  # r-- r-- rwx
   chmod 447 SYSTEMINFO.HTML
 
 
