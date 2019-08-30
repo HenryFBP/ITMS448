@@ -42,7 +42,7 @@ function append_opening_tag() {
   echo "<$1>" >> $2
 }
 
-function generate_systeminfo_file {
+function generate_systeminfo_html {
   echo "Saving system into to an HTML file."
 
   touch SYSTEMINFO.HTML
@@ -75,7 +75,7 @@ function generate_systeminfo_file {
 
 }
 
-function generate_history_file {
+function generate_history_html {
   echo "Saving command history to an HTML file."
 
   touch HISTORY.HTML
@@ -124,11 +124,11 @@ mkdir $WORK_DIR/FILES
 
 pushd $WORK_DIR/FILES
 
-  generate_history_file
+  generate_history_html
   #r-- r-- r--
   chmod 444 HISTORY.HTML
 
-  generate_systeminfo_file
+  generate_systeminfo_html
   # r-- r-- rwx
   chmod 447 SYSTEMINFO.HTML
 
