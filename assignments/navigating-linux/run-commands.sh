@@ -2,7 +2,7 @@
 
 WORK_DIR=out/LNI
 
-function show_tree {
+function show_tree() {
   if hash tree 2>/dev/null; then
     echo "Directory tree:"
     tree $WORK_DIR
@@ -13,12 +13,12 @@ function show_tree {
 
 # Prepend text to a file.
 function prepend_to_file() {
-  echo "$1" | cat - $2 > /tmp/hellothere && mv /tmp/hellothere $2
+  echo "$1" | cat - $2 >/tmp/hellothere && mv /tmp/hellothere $2
 }
 
 # Append text to a file.
 function append_to_file() {
-  echo "$1" >> $2
+  echo "$1" >>$2
 }
 
 # Surround a file's lines with <li> elements
@@ -31,18 +31,17 @@ function exec_liify_append_to_file() {
   eval '$1 | sed "s/^/\<li\>/;s/\$/\<\/li\>/" >> $2'
 }
 
-
 # Append a closing HTML tag to a file.
 function append_closing_tag() {
-  echo "</$1>" >> $2
+  echo "</$1>" >>$2
 }
 
 # Append an opening HTML tag to a file.
 function append_opening_tag() {
-  echo "<$1>" >> $2
+  echo "<$1>" >>$2
 }
 
-function generate_systeminfo_html {
+function generate_systeminfo_html() {
   echo "Saving system into to an HTML file."
 
   touch SYSTEMINFO.HTML
@@ -51,23 +50,23 @@ function generate_systeminfo_html {
   append_opening_tag "body" "SYSTEMINFO.HTML"
 
   append_opening_tag "h1" "SYSTEMINFO.HTML"
-    echo "System information:" >> SYSTEMINFO.HTML
+  echo "System information:" >>SYSTEMINFO.HTML
   append_closing_tag "h1" "SYSTEMINFO.HTML"
 
   append_opening_tag "h2" "SYSTEMINFO.HTML"
-    echo "Kernel info:" >> SYSTEMINFO.HTML
+  echo "Kernel info:" >>SYSTEMINFO.HTML
   append_closing_tag "h2" "SYSTEMINFO.HTML"
 
   append_opening_tag "p" "SYSTEMINFO.HTML"
-    uname -a >> SYSTEMINFO.HTML
+  uname -a >>SYSTEMINFO.HTML
   append_closing_tag "p" "SYSTEMINFO.HTML"
 
   append_opening_tag "h2" "SYSTEMINFO.HTML"
-    echo "CPU info:" >> SYSTEMINFO.HTML
+  echo "CPU info:" >>SYSTEMINFO.HTML
   append_closing_tag "h2" "SYSTEMINFO.HTML"
 
   append_opening_tag "ul" "SYSTEMINFO.HTML"
-    exec_liify_append_to_file "cat /proc/cpuinfo" "SYSTEMINFO.HTML"
+  exec_liify_append_to_file "cat /proc/cpuinfo" "SYSTEMINFO.HTML"
   append_opening_tag "ul" "SYSTEMINFO.HTML"
 
   append_closing_tag "html" "SYSTEMINFO.HTML"
@@ -76,37 +75,37 @@ function generate_systeminfo_html {
 }
 
 # Haha, I included the spelling mistake.
-function generate_systeminifo_file {
+function generate_systeminifo_file() {
 
   FILENAME="SYSTEMINIFO.TXT"
 
   echo "Saving system info to a file."
 
-  echo "SYSTEM INFO:" >> $FILENAME
-  uname -a >> $FILENAME
+  echo "SYSTEM INFO:" >>$FILENAME
+  uname -a >>$FILENAME
 
-  echo "CALENDAR INFO:" >> $FILENAME
-  cal >> $FILENAME
+  echo "CALENDAR INFO:" >>$FILENAME
+  cal >>$FILENAME
 
-  echo "DATE:"  >> $FILENAME
-  date >> $FILENAME
+  echo "DATE:" >>$FILENAME
+  date >>$FILENAME
 
-  echo "BLOCK DEVICES:"  >> $FILENAME
-  lsblk >> $FILENAME
+  echo "BLOCK DEVICES:" >>$FILENAME
+  lsblk >>$FILENAME
 
   # 3 other commands
-  echo "CPU INFO:" >> $FILENAME
-  cat /proc/cpuinfo >> $FILENAME
+  echo "CPU INFO:" >>$FILENAME
+  cat /proc/cpuinfo >>$FILENAME
 
-  echo "MEMORY INFO:" >> $FILENAME
-  cat /proc/meminfo >> $FILENAME
+  echo "MEMORY INFO:" >>$FILENAME
+  cat /proc/meminfo >>$FILENAME
 
-  echo "PROCESSES:" >> $FILENAME
-  ps -ax >> $FILENAME
+  echo "PROCESSES:" >>$FILENAME
+  ps -ax >>$FILENAME
 
 }
 
-function generate_history_html {
+function generate_history_html() {
   echo "Saving command history to an HTML file."
 
   touch HISTORY.HTML
@@ -114,23 +113,23 @@ function generate_history_html {
   # XML gods, forgive me for I have concatenated.
 
   append_opening_tag "html" "HISTORY.HTML"
-    append_opening_tag "body" "HISTORY.HTML"
+  append_opening_tag "body" "HISTORY.HTML"
 
-    append_opening_tag "h1" "HISTORY.HTML"
-      echo "Your command history:" >> HISTORY.HTML
-    append_closing_tag "h1" "HISTORY.HTML"
+  append_opening_tag "h1" "HISTORY.HTML"
+  echo "Your command history:" >>HISTORY.HTML
+  append_closing_tag "h1" "HISTORY.HTML"
 
-    append_opening_tag "p" "HISTORY.HTML"
-      echo "Hi Prof, give me extra credit for making valid HTML." >> HISTORY.HTML
-    append_closing_tag "p" "HISTORY.HTML"
+  append_opening_tag "p" "HISTORY.HTML"
+  echo "Hi Prof, give me extra credit for making valid HTML." >>HISTORY.HTML
+  append_closing_tag "p" "HISTORY.HTML"
 
-    append_opening_tag "ol" "HISTORY.HTML"
-      # Get bash history and save to a file.
-      exec_liify_append_to_file "cat /home/`whoami`/.bash_history" "HISTORY.HTML"
-    append_closing_tag "ol" "HISTORY.HTML"
+  append_opening_tag "ol" "HISTORY.HTML"
+  # Get bash history and save to a file.
+  exec_liify_append_to_file "cat /home/$(whoami)/.bash_history" "HISTORY.HTML"
+  append_closing_tag "ol" "HISTORY.HTML"
 
-    # Append </body></html> to file. Ew...
-    append_closing_tag "body" "HISTORY.HTML"
+  # Append </body></html> to file. Ew...
+  append_closing_tag "body" "HISTORY.HTML"
   append_closing_tag "html" "HISTORY.HTML"
 
 }
@@ -152,23 +151,22 @@ mkdir $WORK_DIR/SCRIPTS/SHELL_BASH
 
 mkdir $WORK_DIR/FILES
 
-
 pushd $WORK_DIR/FILES
 
-  generate_history_html
-  # 4-- 4-- 4--
-  # r-- r-- r--
-  chmod 444 HISTORY.HTML
+generate_history_html
+# 4-- 4-- 4--
+# r-- r-- r--
+chmod 444 HISTORY.HTML
 
-  generate_systeminfo_html
-  # 4-- 4-- 421
-  # r-- r-- rwx
-  chmod 447 SYSTEMINFO.HTML
+generate_systeminfo_html
+# 4-- 4-- 421
+# r-- r-- rwx
+chmod 447 SYSTEMINFO.HTML
 
-  generate_systeminifo_file
-  # 42- 42- 4--
-  # rw- rw- r--
-  chmod 664 SYSTEMINIFO.TXT
+generate_systeminifo_file
+# 42- 42- 4--
+# rw- rw- r--
+chmod 664 SYSTEMINIFO.TXT
 
 popd
 
