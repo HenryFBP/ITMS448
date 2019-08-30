@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
 WORK_DIR=out/LNI
+NAME="Henry Post"
+
+function echo_ownership() {
+  echo "Written by $NAME"
+}
 
 function show_tree() {
   if hash tree 2>/dev/null; then
@@ -80,6 +85,8 @@ function generate_systeminifo_file() {
   FILENAME="SYSTEMINIFO.TXT"
 
   echo "Saving system info to a file."
+
+  echo "$(echo_ownership)" >>$FILENAME
 
   echo "SYSTEM INFO:" >>$FILENAME
   uname -a >>$FILENAME
