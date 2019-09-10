@@ -18,7 +18,7 @@ if [ ! -d "$RAPIDMINER_FOLDER" ]; then
 fi
 
 #Rapidminer studio must use Java 8!
-java_version=$(java -version)
+java_version=$(java -version 2>&1)
 if ! [[ $java_version =~ 1.8.0 ]]; then
   echo "Your default java version is not Java 8."
   echo "It must be for RapidMiner studio to work."
