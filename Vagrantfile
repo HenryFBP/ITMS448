@@ -14,6 +14,10 @@ Vagrant.configure('2') do |config|
   config.vm.box = 'kalilinux/rolling'
   # config.vm.box = 'kalilinux/rolling-light'
 
+  config.ssh.username = 'vagrant'
+  config.ssh.password = 'vagrant'
+  config.ssh.insert_key = false
+
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
@@ -64,7 +68,6 @@ Vagrant.configure('2') do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision 'shell', run: 'always', inline: <<-SHELL
-    apt-get update
-    apt-get install -y apache2
+    echo "I'm Kali Linux :)"
   SHELL
 end
