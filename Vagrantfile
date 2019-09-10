@@ -70,4 +70,7 @@ Vagrant.configure('2') do |config|
   config.vm.provision 'shell', run: 'always', inline: <<-SHELL
     echo "I'm Kali Linux :)"
   SHELL
+
+  config.vm.provision 'shell', run: 'always', path: 'scripts/setup_rapidminer.sh'
+
 end
