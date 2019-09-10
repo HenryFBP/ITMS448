@@ -2,7 +2,7 @@
 
 RAPIDMINER_URL="https://releases.rapidminer.com/latest/rapidminer-studio/rapidminer-studio.zip"
 RAPIDMINER_FILEPATH="/home/vagrant/Downloads/rapidminer-studio.zip"
-RAPIDMINER_FOLDER="/home/vagrant/rapidminer-studio/"
+RAPIDMINER_FOLDER="/home/vagrant/"
 
 # Download rapidminer
 if [ ! -f "$RAPIDMINER_FILEPATH" ]; then
@@ -18,7 +18,7 @@ if [ ! -d "$RAPIDMINER_FOLDER" ]; then
 fi
 
 #Rapidminer studio must use Java 8!
-java_version=$(java --version)
+java_version=$(java -version)
 if ! [[ $java_version =~ 1.8.0 ]]; then
   echo "Your default java version is not Java 8."
   echo "It must be for RapidMiner studio to work."
