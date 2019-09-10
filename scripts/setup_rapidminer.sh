@@ -2,19 +2,25 @@
 
 RAPIDMINER_URL="https://releases.rapidminer.com/latest/rapidminer-studio/rapidminer-studio.zip"
 RAPIDMINER_FILEPATH="/home/vagrant/Downloads/rapidminer-studio.zip"
-RAPIDMINER_FOLDER="/home/vagrant/"
+RAPIDMINER_FOLDER="/home/vagrant/rapidminer-studio/"
 
 # Download rapidminer
 if [ ! -f "$RAPIDMINER_FILEPATH" ]; then
   echo 'Downloading rapidminer studio...'
   mkdir -p /home/vagrant/Downloads
-  curl -s "$RAPIDMINER_URL" --output "$RAPIDMINER_FILEPATH"
+  curl -s "$RAPIDMINER_URL" --output "$RAPIDMINER_FILEPATH/"
 fi
 
 # Extract rapidminer studio
 if [ ! -d "$RAPIDMINER_FOLDER" ]; then
   echo "Extracting rapidminer studio..."
-  unzip "$RAPIDMINER_FILEPATH" -d "$RAPIDMINER_FOLDER"
+  mkdir -p "$RAPIDMINER_FOLDER"
+  pushd "$RAPIDMINER_FOLDER"
+
+  cd .. #fix for folder in folder
+
+  unzip "$RAPIDMINER_FILEPATH"
+  popd
 fi
 
 #Rapidminer studio must use Java 8!
