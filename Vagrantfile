@@ -1,5 +1,21 @@
 # frozen_string_literal: true
 
+LINUX = RUBY_PLATFORM =~ /linux/
+OSX = RUBY_PLATFORM =~ /darwin/
+WINDOWS = (/cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM) != nil
+if OSX
+  CPUS = `sysctl -n hw.ncpu`.to_i
+  MEM = `sysctl -n hw.memsize`.to_i / 1024 / 1024
+end
+if LINUX
+  CPUS = `nproc`.to_i
+  MEM = `sed -n -e '/^MemTotal/s/^[^0-9]*//p' /proc/meminfo`.to_i / 1024
+end
+if WINDOWS
+  CPUS = `wmic computersystem get numberofprocessors`.split("\n")[2].to_i
+  MEM = `wmic OS get TotalVisibleMemorySize`.split("\n")[2].to_i / 1024
+end
+
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
 # configures the configuration version (we support older styles for
 # backwards compatibility). Please don't change it unless you know what
@@ -59,6 +75,12 @@ Vagrant.configure('2') do |config|
 
     # Customize the amount of memory on the VM:
     vb.memory = '4000'
+
+    # Give me your MEMORY!!!!
+    if MEM > 16000
+      vb.memory = '8000'
+    end
+
   end
   #
   # View the documentation for the provider you are using for more
