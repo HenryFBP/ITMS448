@@ -73,13 +73,8 @@ Vagrant.configure('2') do |config|
     # Display the VirtualBox GUI when booting the machine
     vb.gui = true
 
-    # Customize the amount of memory on the VM:
-    vb.memory = '4096'
-
-    # Use more memory if it is available.
-    if MEM >= 16384
-      vb.memory = '8192'
-    end
+    # Use a fraction of memory available to us.
+    vb.memory = (MEM * (2/3))
 
   end
   #
