@@ -8,7 +8,7 @@ RAPIDMINER_FOLDER="/home/vagrant/rapidminer-studio/"
 if [ ! -f "$RAPIDMINER_FILEPATH" ]; then
   echo 'Downloading rapidminer studio...'
   mkdir -p /home/vagrant/Downloads
-  curl -s "$RAPIDMINER_URL" --output "$RAPIDMINER_FILEPATH/"
+  curl -s "$RAPIDMINER_URL" --output "$RAPIDMINER_FILEPATH"
 fi
 
 # Extract rapidminer studio
