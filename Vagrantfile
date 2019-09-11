@@ -74,7 +74,7 @@ Vagrant.configure('2') do |config|
     vb.gui = true
 
     # Use a fraction of memory available to us.
-    vb.memory = (MEM * (2.0/3.0))/1
+    vb.memory = (MEM * (2.0/3.0)).round
 
   end
   #
