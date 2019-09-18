@@ -90,4 +90,6 @@ Vagrant.configure('2') do |config|
 
   config.vm.provision 'shell', run: 'always', path: 'scripts/setup_rapidminer.sh'
 
+  config.vm.provision 'shell', run: 'always', path: 'scripts/install_tools.sh'
+
 end
