@@ -1,20 +1,7 @@
 # frozen_string_literal: true
 
-LINUX = RUBY_PLATFORM =~ /linux/
-OSX = RUBY_PLATFORM =~ /darwin/
-WINDOWS = (/cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM) != nil
-if OSX
-  CPUS = `sysctl -n hw.ncpu`.to_i
-  MEM = `sysctl -n hw.memsize`.to_i / 1024 / 1024
-end
-if LINUX
-  CPUS = `nproc`.to_i
-  MEM = `sed -n -e '/^MemTotal/s/^[^0-9]*//p' /proc/meminfo`.to_i / 1024
-end
-if WINDOWS
-  CPUS = `wmic computersystem get numberofprocessors`.split("\n")[2].to_i
-  MEM = `wmic OS get TotalVisibleMemorySize`.split("\n")[2].to_i / 1024
-end
+# MB of memory to use for VM
+VM_MEMORY = 2500
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
 # configures the configuration version (we support older styles for
@@ -73,8 +60,7 @@ Vagrant.configure('2') do |config|
     # Display the VirtualBox GUI when booting the machine
     vb.gui = true
 
-    # Use a fraction of memory available to us.
-    vb.memory = (MEM * (2.0/3.0)).round
+    vb.memory = VM_MEMORY
 
   end
   #
