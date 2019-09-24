@@ -2,3 +2,5 @@ http://localhost/vulnerabilities/fi/?page=/etc/passwd
 
 http://localhost/vulnerabilities/fi/?page=/etc/os-release
 
+# Circular reference, page hangs.
+http://localhost/vulnerabilities/fi/?page=/var/www/html/vulnerabilities/fi/index.php
