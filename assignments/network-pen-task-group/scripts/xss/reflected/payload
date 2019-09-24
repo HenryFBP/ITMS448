@@ -1,0 +1,13 @@
+</pre>
+
+oh my god! I'm in the DOM!
+
+
+<script >
+
+console.log("oops!");
+
+window.alert("You have been hacked! Give hxxps://russianhackerdude.ru/ all your money!");
+
+</script>
+<pre>
