@@ -2,3 +2,4 @@
 .idea/
 *.out.pdf
 out/
+.fuse_hidden*
