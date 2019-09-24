@@ -2,7 +2,7 @@
 ;pause 99999
 
 # Passwords plus some pausing.
-;cat /etc/passwd;echo "Uh oh, stinky!";cat /etc/shadow
+;cat /etc/passwd;echo "Hi there!";cat /etc/shadow
 
 # Show directory contents
 ;ls -lash ./
@@ -13,7 +13,7 @@
 # Source code!
 ;cat /var/www/html/vulnerabilities/exec/index.php
 
-# Uh oh, stinky!
+# Stop server!
 ;sudo shutdown now
 
 # Oh no. Delete current directory.
