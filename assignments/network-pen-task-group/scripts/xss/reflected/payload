@@ -1,7 +1,5 @@
 </pre>
 
-<p><big>I turned myself into a DOM element, Morty! Boom! Big reveal: I'm a DOM element. What do you think about that?
- I turned myself into a DOM element! W-what are you just staring at me for, bro. I turned myself into a DOM element, Morty!</big></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
@@ -19,7 +17,7 @@ window.alert("You have been hacked! Give hxxps://russianhackerdude.ru/ all your 
 
 function deathgrip() {
 
-var node = $("<marquee><big><a href=https://www.youtube.com/watch?v=FveF-we6lcE>uh oh....STINKY!!</a></big></marquee>");
+var node = $("<marquee><big><a href=https://www.youtube.com/watch?v=FveF-we6lcE>Click me!</a></big></marquee>");
 var mcride = $(mcrideimg);
  document.body.appendChild(node[0]);
  document.body.appendChild(mcride[0]);
