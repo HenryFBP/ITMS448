@@ -21,3 +21,6 @@
 
 # Oh NO. Delete website.
 ;cd /;rm -rf /var/www/;
+
+# XSS via command injection
+;echo "<marquee>XSS via command injection? It's more likely than you think.</marquee>"
