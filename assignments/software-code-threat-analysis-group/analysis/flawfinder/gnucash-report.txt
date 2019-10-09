@@ -5021,7 +5021,7 @@ out/gnucash/gnucash-3.7/libgnucash/gnc-module/test/mod-foo/swig-foo.c:812:  [1] 
 ANALYSIS SUMMARY:
 
 Hits = 1075
-Lines analyzed = 574282 in approximately 14.80 seconds (38792 lines/second)
+Lines analyzed = 574282 in approximately 5.44 seconds (105570 lines/second)
 Physical Source Lines of Code (SLOC) = 400292
 Hits@level = [0] 671 [1] 535 [2] 437 [3]  30 [4]  71 [5]   2
 Hits@level+ = [0+] 1746 [1+] 1075 [2+] 540 [3+] 103 [4+]  73 [5+]   2
