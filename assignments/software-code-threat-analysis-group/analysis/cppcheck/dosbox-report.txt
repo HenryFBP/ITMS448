@@ -1,0 +1,18 @@
+[out/dosbox/dosbox-0.74-3/src/debug/debug.cpp:2093]: (error) Resource leak: f
+[out/dosbox/dosbox-0.74-3/src/debug/debug.cpp:2120]: (error) Resource leak: f
+[out/dosbox/dosbox-0.74-3/src/debug/debug_gui.cpp:205]: (error) Resource leak: debuglog
+[out/dosbox/dosbox-0.74-3/src/dos/cdrom_aspi_win32.cpp:313]: (error) Uninitialized variable: toc
+[out/dosbox/dosbox-0.74-3/src/dos/cdrom_aspi_win32.cpp:327]: (error) Uninitialized variable: toc
+[out/dosbox/dosbox-0.74-3/src/dos/dos_mscdex.cpp:177]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[out/dosbox/dosbox-0.74-3/src/dos/dos_mscdex.cpp:212]: (error) Deallocation of an auto-variable results in undefined behaviour.
+[out/dosbox/dosbox-0.74-3/src/gui/sdl_mapper.cpp:1871]: (error) Return value of allocation function 'AddJAxisButton_hidden' is not stored.
+[out/dosbox/dosbox-0.74-3/src/gui/sdl_mapper.cpp:1873]: (error) Return value of allocation function 'AddJAxisButton_hidden' is not stored.
+[out/dosbox/dosbox-0.74-3/src/gui/sdl_mapper.cpp:1889]: (error) Return value of allocation function 'AddJAxisButton_hidden' is not stored.
+[out/dosbox/dosbox-0.74-3/src/gui/sdl_mapper.cpp:1891]: (error) Return value of allocation function 'AddJAxisButton_hidden' is not stored.
+[out/dosbox/dosbox-0.74-3/src/gui/dosbox_logo.h:282]: (error) syntax error
+[out/dosbox/dosbox-0.74-3/src/libs/zmbv/zmbv.cpp:173]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[out/dosbox/dosbox-0.74-3/src/libs/zmbv/zmbv.cpp:157]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[out/dosbox/dosbox-0.74-3/src/hardware/serialport/libserial.cpp:290]: (error) Memory leak: cp
+[out/dosbox/dosbox-0.74-3/src/hardware/serialport/libserial.cpp:48]: (error) Memory leak: cp
+[out/dosbox/dosbox-0.74-3/src/hardware/serialport/softmodem.cpp:388] -> [out/dosbox/dosbox-0.74-3/src/hardware/serialport/softmodem.cpp:375] -> [out/dosbox/dosbox-0.74-3/src/hardware/serialport/softmodem.cpp:391]: (error) Using pointer to local variable 'buffer' that is out of scope.
+[out/dosbox/dosbox-0.74-3/src/misc/programs.cpp:378] -> [out/dosbox/dosbox-0.74-3/src/misc/programs.cpp:378] -> [out/dosbox/dosbox-0.74-3/src/misc/programs.cpp:392]: (error) Using pointer to local variable 'buffer' that is out of scope.

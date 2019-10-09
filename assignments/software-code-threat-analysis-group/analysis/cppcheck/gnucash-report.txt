@@ -1,0 +1,139 @@
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:5791]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:5936]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:12014]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:15304]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:19108]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:19821]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:20391]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:24347]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:40281]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:3779]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:3810]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:4400]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:4458]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:4531]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:4607]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:4629]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:4651]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:4673]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:5445]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:5467]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:5777]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:5976]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:6237]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:7896]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:7918]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:7940]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:7962]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:7984]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8030]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8085]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8164]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8211]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8258]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8305]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8352]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8399]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8470]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:8556]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:9385]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:9407]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:9470]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:12427]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:14205]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:14340]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:14371]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:14470]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:14501]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:14939]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:15290]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:15344]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:15701]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:19042]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:19861]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:19917]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:20449]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:20462]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:20502]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:20577]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21197]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21258]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21319]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21380]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21408]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21436]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21479]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21522]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21568]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21596]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21674]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21687]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21700]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:21713]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:24411]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:24467]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:26628]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:27966]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:28245]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:29003]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:29025]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:29430]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:30086]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:30108]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:30328]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:31296]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:31986]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:32616]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:32962]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:34194]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:34364]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:34395]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:34417]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:34439]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:35560]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:35969]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:36184]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:37339]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:37493]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:37531]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:37575]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:37629]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:37651]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:37887]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:38219]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:38289]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:38454]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:38508]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:38562]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:38695]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:39055]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:40051]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:40489]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:40659]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:40672]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:41264]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:42640]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:42719]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/bindings/python/gnucash_core.c:43007]: (error) Allocation with malloc, memcpy doesn't release it.
+[out/gnucash/gnucash-3.7/common/test-core/swig-unittest-support-python.c:3643]: (error) Memory leak: result
+[out/gnucash/gnucash-3.7/gnucash/gnome-utils/dialog-account.c:1158]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[out/gnucash/gnucash-3.7/gnucash/gnome-utils/gnc-gnome-utils.c:287]: (error) syntax error
+[out/gnucash/gnucash-3.7/gnucash/gnome/assistant-hierarchy.c:225]: (error) syntax error
+[out/gnucash/gnucash-3.7/gnucash/report/report-gnome/gnc-plugin-page-report.c:1831]: (warning) Possible null pointer dereference: job_name
+[out/gnucash/gnucash-3.7/libgnucash/app-utils/guile-util.c:942]: (warning) Possible null pointer dereference: retptr
+[out/gnucash/gnucash-3.7/libgnucash/app-utils/guile-util.c:944]: (warning) Possible null pointer dereference: retptr
+[out/gnucash/gnucash-3.7/libgnucash/core-utils/gnc-filepath-utils.cpp:504]: (error) Uninitialized variable: fm
+[out/gnucash/gnucash-3.7/libgnucash/core-utils/gnc-filepath-utils.cpp:505]: (error) Uninitialized variable: appSupportDir
+[out/gnucash/gnucash-3.7/libgnucash/core-utils/gnc-filepath-utils.cpp:510]: (error) Uninitialized variable: dirUrl
+[out/gnucash/gnucash-3.7/libgnucash/core-utils/test/test-userdata-dir.c:74]: (error) Uninitialized variable: fm
+[out/gnucash/gnucash-3.7/libgnucash/core-utils/test/test-userdata-dir.c:75]: (error) Uninitialized variable: appSupportDir
+[out/gnucash/gnucash-3.7/libgnucash/core-utils/test/test-userdata-dir.c:79]: (error) Uninitialized variable: dirUrl
+[out/gnucash/gnucash-3.7/libgnucash/core-utils/test/test-userdata-dir.c:80]: (error) Uninitialized variable: dirPath
+[out/gnucash/gnucash-3.7/libgnucash/engine/gncBillTerm.c:860]: (error) Syntax Error: AST broken, binary operator '=' doesn't have two operands.
+[out/gnucash/gnucash-3.7/libgnucash/engine/gncInvoice.c:864]: (error) Uninitialized variable: taxes
+[out/gnucash/gnucash-3.7/libgnucash/engine/gncInvoice.c:963]: (error) Uninitialized variable: taxes
+[out/gnucash/gnucash-3.7/libgnucash/engine/gncInvoice.c:965]: (error) Uninitialized variable: taxes
+[out/gnucash/gnucash-3.7/libgnucash/engine/qofsession.cpp:476]: (error) Null pointer dereference
+[out/gnucash/gnucash-3.7/libgnucash/engine/qofsession.cpp:549]: (error) Dangerous usage of c_str(). The value returned by c_str() is invalid after this call.
+[out/gnucash/gnucash-3.7/libgnucash/engine/qofsession.cpp:570]: (error) Dangerous usage of c_str(). The value returned by c_str() is invalid after this call.
+[out/gnucash/gnucash-3.7/libgnucash/engine/test/utest-Account.cpp:2279]: (error) Shifting by a negative value is undefined behaviour
