@@ -733,7 +733,7 @@ out/qbittorrent/qbittorrent-4.1.5/src/webui/webapplication.cpp:757:  [1] (buffer
 ANALYSIS SUMMARY:
 
 Hits = 93
-Lines analyzed = 68823 in approximately 0.73 seconds (94767 lines/second)
+Lines analyzed = 68823 in approximately 4.23 seconds (16285 lines/second)
 Physical Source Lines of Code (SLOC) = 47436
 Hits@level = [0]  20 [1]  26 [2]  56 [3]   0 [4]  11 [5]   0
 Hits@level+ = [0+] 113 [1+]  93 [2+]  67 [3+]  11 [4+]  11 [5+]   0

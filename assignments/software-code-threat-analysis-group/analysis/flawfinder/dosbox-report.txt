@@ -5126,7 +5126,7 @@ out/dosbox/dosbox-0.74-3/src/shell/shell_misc.cpp:567:  [1] (buffer) strcat:
 ANALYSIS SUMMARY:
 
 Hits = 1228
-Lines analyzed = 138451 in approximately 1.65 seconds (83919 lines/second)
+Lines analyzed = 138451 in approximately 3.79 seconds (36558 lines/second)
 Physical Source Lines of Code (SLOC) = 112398
 Hits@level = [0]  82 [1] 289 [2] 682 [3]  20 [4] 234 [5]   3
 Hits@level+ = [0+] 1310 [1+] 1228 [2+] 939 [3+] 257 [4+] 237 [5+]   3
