@@ -1,0 +1,746 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/application.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/application.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/cmdoptions.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/cmdoptions.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/filelogger.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/filelogger.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/main.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlocalpeer.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlocalpeer.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlockedfile.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlockedfile.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlockedfile_unix.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlockedfile_win.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtsingleapplication.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtsingleapplication.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtsinglecoreapplication.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtsinglecoreapplication.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/stacktrace.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/stacktracedialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/stacktrace_win.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/app/upgrade.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/profile.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/algorithm.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/asyncfilestorage.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/asyncfilestorage.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/addtorrentparams.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/cachestatus.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/filepriority.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/filepriority.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/infohash.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/infohash.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/magneturi.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/magneturi.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/peerinfo.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/peerinfo.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/bandwidthscheduler.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/bandwidthscheduler.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/resumedatasavingmanager.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/resumedatasavingmanager.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/speedmonitor.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/speedmonitor.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/statistics.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/statistics.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/sessionstatus.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrentcreatorthread.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrentcreatorthread.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrenthandle.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrenthandle.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrentinfo.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrentinfo.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/tracker.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/tracker.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/trackerentry.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/trackerentry.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/exceptions.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/exceptions.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/filesystemwatcher.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/filesystemwatcher.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/global.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/connection.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/connection.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/httperror.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/httperror.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/irequesthandler.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/requestparser.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/requestparser.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/responsebuilder.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/responsebuilder.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/responsegenerator.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/responsegenerator.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/server.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/server.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/http/types.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/iconprovider.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/iconprovider.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/indexrange.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/logger.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/logger.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/dnsupdater.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/dnsupdater.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadmanager.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadmanager.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/geoipmanager.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/geoipmanager.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/portforwarder.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/portforwarder.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/proxyconfigurationmanager.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/proxyconfigurationmanager.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/reverseresolution.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/reverseresolution.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/smtp.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/net/smtp.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/preferences.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/preferences.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/private/profile_p.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/private/profile_p.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/profile.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/private/rss_parser.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/private/rss_parser.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_article.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_article.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_autodownloader.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_autodownloader.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_autodownloadrule.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_autodownloadrule.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_feed.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_feed.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_folder.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_folder.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_item.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_item.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_session.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_session.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/scanfoldersmodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/scanfoldersmodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchdownloadhandler.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchdownloadhandler.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchhandler.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchhandler.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchpluginmanager.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchpluginmanager.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/settingsstorage.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/settingsstorage.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/settingvalue.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/torrentfileguard.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/torrentfileguard.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/torrentfilter.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/torrentfilter.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/tristatebool.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/tristatebool.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/types.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/unicodestrings.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/bytearray.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/bytearray.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/foreignapps.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/foreignapps.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/fs.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/fs.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/gzip.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/gzip.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/misc.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/misc.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/net.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/net.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/random.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/random.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/string.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/string.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/base/utils/version.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/aboutdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/addnewtorrentdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/addnewtorrentdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/advancedsettings.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/advancedsettings.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/autoexpandabledialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/autoexpandabledialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/banlistoptionsdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/banlistoptionsdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/categoryfiltermodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/categoryfiltermodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/categoryfilterproxymodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/categoryfilterproxymodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/speedlimitdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/speedlimitdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/statsdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/statsdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/statusbar.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/statusbar.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/tagfiltermodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/tagfiltermodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/tagfilterproxymodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/tagfilterproxymodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/tagfilterwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/tagfilterwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcategorydialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcategorydialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentfiltermodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentfiltermodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodelfile.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodelfile.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodelfolder.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodelfolder.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodelitem.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/fspathedit_p.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/guiiconprovider.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/guiiconprovider.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/hidabletabwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/ipsubnetwhitelistoptionsdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/ipsubnetwhitelistoptionsdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/lineedit/src/lineedit.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/lineedit/src/lineedit.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/loglistwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/loglistwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/macutilities.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/mainwindow.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/mainwindow.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/optionsdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontenttreeview.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontenttreeview.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcreatordialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcreatordialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/trackerlogindialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/trackerlogindialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistdelegate.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistdelegate.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistfilterswidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistfilterswidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistmodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistmodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistsortmodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistsortmodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/transferlistwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/updownratiodialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/updownratiodialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/utils.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/utils.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/categoryfilterwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/fspathedit_p.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/optionsdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/shutdownconfirmdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/torrentcontentmodelitem.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/powermanagement/powermanagement.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/powermanagement/powermanagement.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/powermanagement/powermanagement_x11.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/powermanagement/powermanagement_x11.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/previewlistdelegate.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/previewselectdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/previewselectdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/programupdater.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/programupdater.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/downloadedpiecesbar.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/downloadedpiecesbar.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/peerlistdelegate.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/peerlistsortmodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/peerlistwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/peerlistwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/peersadditiondialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/peersadditiondialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/pieceavailabilitybar.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/pieceavailabilitybar.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/piecesbar.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/piecesbar.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/propertieswidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/propertieswidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/proplistdelegate.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/proplistdelegate.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/proptabbar.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/proptabbar.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/speedplotview.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/speedplotview.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/speedwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/speedwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/trackerlistwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/trackerlistwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/trackersadditiondialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/trackersadditiondialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/qtnotify/notifications.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/qtnotify/notifications.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/raisedmessagebox.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/raisedmessagebox.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/articlelistwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/articlelistwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/automatedrssdownloader.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/automatedrssdownloader.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/feedlistwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/feedlistwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/htmlbrowser.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/htmlbrowser.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/rsswidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/rsswidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/scanfoldersdelegate.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/scanfoldersdelegate.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/pluginselectdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/pluginselectdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/pluginsourcedialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/pluginsourcedialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchjobwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchjobwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchlistdelegate.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchlistdelegate.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchsortmodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchsortmodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/search/searchwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/shutdownconfirmdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/categoryfilterwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/cookiesdialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/cookiesdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/cookiesmodel.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/cookiesmodel.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/deletionconfirmationdialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/downloadfromurldialog.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/downloadfromurldialog.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/executionlogwidget.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/executionlogwidget.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/fspathedit.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/gui/fspathedit.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/apicontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/apicontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/apierror.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/apierror.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/appcontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/appcontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/authcontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/authcontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/freediskspacechecker.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/freediskspacechecker.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/isessionmanager.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/logcontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/logcontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/rsscontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/rsscontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/searchcontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/searchcontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/serialize/serialize_torrent.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/serialize/serialize_torrent.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/synccontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/synccontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/torrentscontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/torrentscontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/transfercontroller.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/api/transfercontroller.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/webapplication.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/webapplication.h
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/webui.cpp
+Examining out/qbittorrent/qbittorrent-4.1.5/src/webui/webui.h
+
+FINAL RESULTS:
+
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:94:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:1091:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:1895:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:4362:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:4392:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:4411:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:4434:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:4457:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/preferences.cpp:96:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/base/utils/string.cpp:164:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/speedplotview.cpp:106:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely
+  (CWE-78). try using a library call that implements the same functionality
+  if available.
+out/qbittorrent/qbittorrent-4.1.5/src/app/filelogger.cpp:167:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlocalpeer.cpp:108:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlockedfile.cpp:123:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlockedfile.cpp:129:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlockedfile.h:76:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/upgrade.h:94:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/upgrade.h:161:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/upgrade.h:242:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/asyncfilestorage.cpp:45:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/asyncfilestorage.cpp:71:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/infohash.cpp:44:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:127:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:275:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:437:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:444:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/resumedatasavingmanager.cpp:47:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:3820:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:3999:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/session.cpp:4605:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrenthandle.cpp:1421:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/torrentinfo.cpp:102:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.cpp:50:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older System
+  V systems) (CWE-377).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.cpp:51:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older System
+  V systems) (CWE-377).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.cpp:53:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older System
+  V systems) (CWE-377).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.cpp:53:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.cpp:56:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older System
+  V systems) (CWE-377).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/downloadhandler.cpp:58:  [2] (tmpfile) tmpfile:
+  Function tmpfile() has a security flaw on some systems (e.g., older System
+  V systems) (CWE-377).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/geoipmanager.cpp:442:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.cpp:44:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.cpp:98:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.cpp:130:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.cpp:175:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.h:80:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/smtp.cpp:529:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_autodownloader.cpp:415:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_feed.cpp:259:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_session.cpp:258:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/scanfoldersmodel.cpp:365:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchpluginmanager.cpp:409:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchpluginmanager.cpp:415:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/search/searchpluginmanager.cpp:554:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/utils/fs.cpp:213:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/utils/fs.cpp:214:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/base/utils/random.cpp:96:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/aboutdialog.h:81:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/aboutdialog.h:88:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/aboutdialog.h:95:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/addnewtorrentdialog.cpp:256:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/addnewtorrentdialog.cpp:783:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/addnewtorrentdialog.cpp:792:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/optionsdialog.cpp:1573:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/optionsdialog.cpp:1588:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/properties/trackersadditiondialog.cpp:100:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/automatedrssdownloader.cpp:429:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/rss/automatedrssdownloader.cpp:447:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/webui/webapplication.cpp:493:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+out/qbittorrent/qbittorrent-4.1.5/src/app/main.cpp:264:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+out/qbittorrent/qbittorrent-4.1.5/src/app/main.cpp:362:  [1] (buffer) getchar:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/app/qtsingleapplication/qtlocalpeer.cpp:167:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/app/upgrade.h:69:  [1] (buffer) getchar:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:146:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:294:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:411:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:414:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:415:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/bittorrent/private/filterparserthread.cpp:425:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/http/connection.cpp:49:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/http/connection.cpp:57:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/http/connection.h:58:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.cpp:105:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/net/private/geoipdatabase.cpp:302:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_article.cpp:132:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_article.h:80:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/rss/rss_feed.cpp:360:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/settingsstorage.cpp:54:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/settingsstorage.cpp:156:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/settingsstorage.cpp:231:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/utils/fs.cpp:218:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/base/utils/fs.cpp:218:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/optionsdialog.cpp:1576:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/gui/optionsdialog.cpp:1591:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+out/qbittorrent/qbittorrent-4.1.5/src/webui/webapplication.cpp:757:  [1] (buffer) equal:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+
+ANALYSIS SUMMARY:
+
+Hits = 93
+Lines analyzed = 68823 in approximately 0.91 seconds (75980 lines/second)
+Physical Source Lines of Code (SLOC) = 47436
+Hits@level = [0]  20 [1]  26 [2]  56 [3]   0 [4]  11 [5]   0
+Hits@level+ = [0+] 113 [1+]  93 [2+]  67 [3+]  11 [4+]  11 [5+]   0
+Hits/KSLOC@level+ = [0+] 2.38216 [1+] 1.96054 [2+] 1.41243 [3+] 0.231891 [4+] 0.231891 [5+]   0
+Dot directories skipped = 2 (--followdotdir overrides)
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
