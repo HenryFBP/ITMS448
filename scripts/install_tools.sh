@@ -19,4 +19,4 @@ if ! hash docker 2> /dev/null; then
     sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 fi
 
-sudo apt install -y thunderbird
+sudo apt install -y thunderbird kleopatra
