@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:generator>LibreOffice/6.2.7.1$Linux_X86_64 LibreOffice_project/20$Build-1</meta:generator><dc:date>2019-11-04T22:05:19.964324700</dc:date><meta:editing-duration>PT1H22S</meta:editing-duration><meta:editing-cycles>75</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="6" meta:object-count="0" meta:page-count="7" meta:paragraph-count="51" meta:word-count="1180" meta:character-count="7668" meta:non-whitespace-character-count="6505"/></office:meta>
+ <office:meta><meta:generator>LibreOffice/6.2.7.1$Linux_X86_64 LibreOffice_project/20$Build-1</meta:generator><dc:date>2019-11-04T22:06:06.476264955</dc:date><meta:editing-duration>PT1H1M8S</meta:editing-duration><meta:editing-cycles>76</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="6" meta:object-count="0" meta:page-count="7" meta:paragraph-count="51" meta:word-count="1186" meta:character-count="7718" meta:non-whitespace-character-count="6549"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">95354</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">98129</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">37899</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">17403</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">16925</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">102514</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">20675</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">106915</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">95354</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">98129</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">37897</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">112755</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">115529</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -6478,15 +6478,15 @@
    <text:p text:style-name="P30">Atop the facility shall be a series of eight night-vision cameras manned by 16 guards who will rotate shifts. Two guards will man one screen. These cameras must be able to identify humans, vehicles, and aircraft for at least 0.75 miles.</text:p>
    <text:p text:style-name="P30">Anywhere from 10 to 20 autonomous thermal imaging drones shall monitor the edge of the facility, approximately 100 to 800 feet away from the outer perimiter, for ground and air anomalies. These drones shall rotate in a round-robin fashion for repairs and for recharging to ensure minimum loss of coverage.</text:p>
    <text:p text:style-name="P30">There shall be a series of eight armed guard towers located in a circular pattern approximately 200 feet from the edges of the facility. These towers should be supported by the autonomous drones, perimiter alarms, and night-vision cameras.</text:p>
-   <text:p text:style-name="P30">There shall be a ground-penetrating radar operating continuously to detect tunnels that may be dug by terrorists. The range of this radar shall be at least</text:p>
+   <text:p text:style-name="P30">There shall be a ground-penetrating radar operating continuously to detect tunnels that may be dug by terrorists. The radar shall be operated around the perimiter every 30 minutes, at a different location.</text:p>
    <text:p text:style-name="P30">There shall be two trucks armed with machine guns and supporting troops to provide direct fire support. There shall be one truck armed with an artillery cannon to provide long-range fire support.</text:p>
    <text:p text:style-name="P30">Missile launchers shall be employed to provide ground-to-air fire.</text:p>
    <text:p text:style-name="P30">One THAAD shall be stationed in a concealed part of the facility, to neutralize long-range missile threats.</text:p>
    <text:p text:style-name="P30">All facilities shall have back-up power for at least 48 hours.</text:p>
    <text:p text:style-name="P30">TL;DR: Too many guns, too many gates, too many guards.</text:p>
    <text:p text:style-name="P30">P.S.: The price of this as well as geopolitical impact of this amount of firepower may prove impractical. This is a very ‘loud’ approach. It may be salient to locate this base underground in a fenced-off area with the same amount of firepower, but concealed. However, I don’t want to rewrite this text.</text:p>
-   <text:p text:style-name="P17">Facility security </text:p>
-   <text:p text:style-name="P14"><text:soft-page-break/>In at least 600 words to address the following questions. <text:s/>[1] How does one secure a HVAC system that has Internet of Things (IoT) capabilities? [2] What Risk Management Framework (RMF) requirements should one use to store media, protect media, and degauss/erase media? [4] How do you implement strong authentication? <text:s/>Are there open source possibilities? <text:s/>What are the problems associated with the implementation of strong authentication into facilities?</text:p>
+   <text:p text:style-name="P17"><text:soft-page-break/>Facility security </text:p>
+   <text:p text:style-name="P14">In at least 600 words to address the following questions. <text:s/>[1] How does one secure a HVAC system that has Internet of Things (IoT) capabilities? [2] What Risk Management Framework (RMF) requirements should one use to store media, protect media, and degauss/erase media? [4] How do you implement strong authentication? <text:s/>Are there open source possibilities? <text:s/>What are the problems associated with the implementation of strong authentication into facilities?</text:p>
    <text:p text:style-name="P28">Provide answer below this line</text:p>
    <text:p text:style-name="P18">Test Test </text:p>
    <text:p text:style-name="P20"><text:bookmark text:name="_s3ifk1vz1is0"/>Intelligence, Surveillance, and Reconnaissance (ISR)</text:p>
