@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:generator>LibreOffice/6.2.8.2$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator><dc:date>2019-11-08T16:28:42.670327973</dc:date><meta:editing-duration>PT6H6M56S</meta:editing-duration><meta:editing-cycles>125</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="6" meta:object-count="0" meta:page-count="13" meta:paragraph-count="88" meta:word-count="2546" meta:character-count="16274" meta:non-whitespace-character-count="13775"/></office:meta>
+ <office:meta><meta:generator>LibreOffice/6.2.8.2$Linux_X86_64 LibreOffice_project/20$Build-2</meta:generator><dc:date>2019-11-08T16:49:34.496710800</dc:date><meta:editing-duration>PT6H27M44S</meta:editing-duration><meta:editing-cycles>133</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="6" meta:object-count="0" meta:page-count="14" meta:paragraph-count="94" meta:word-count="2896" meta:character-count="18460" meta:non-whitespace-character-count="15616"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">283125</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">317669</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">26248</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">11305</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">6070</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">4868</config:config-item>
      <config:config-item config:name="ViewTop" config:type="long">322136</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">283125</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">317669</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">26247</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">294428</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">328972</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -530,20 +530,29 @@
   </style:style>
   <style:style style:name="P52" style:family="paragraph" style:parent-style-name="normal">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.139in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false" fo:background-color="transparent" fo:padding="0in" fo:border="none" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:font-name="Ubuntu" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0014b3fd" officeooo:paragraph-rsid="0014b3fd" fo:background-color="#ffdbb6" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:paragraph-properties fo:margin-top="0.139in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:background-color="transparent" fo:padding="0in" fo:border="none"/>
   </style:style>
   <style:style style:name="P53" style:family="paragraph" style:parent-style-name="normal">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.139in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false" fo:background-color="transparent" fo:padding="0in" fo:border="none" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:font-name="Ubuntu" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00158465" officeooo:paragraph-rsid="00158465" fo:background-color="#ffdbb6" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:font-name="Ubuntu" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0014b3fd" officeooo:paragraph-rsid="0014b3fd" fo:background-color="#ffdbb6" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P54" style:family="paragraph" style:parent-style-name="normal">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.139in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false" fo:background-color="transparent" fo:padding="0in" fo:border="none" style:writing-mode="lr-tb"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:font-name="Ubuntu" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00158465" officeooo:paragraph-rsid="00158465" fo:background-color="#ffdbb6" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="normal">
+   <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.139in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false" fo:background-color="transparent" fo:padding="0in" fo:border="none" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:font-name="Ubuntu" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0016bdd5" officeooo:paragraph-rsid="0016bdd5" fo:background-color="#ffdbb6" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="First_20_Page">
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="normal">
+   <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.139in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false" fo:background-color="transparent" fo:padding="0in" fo:border="none"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Ubuntu" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0016bdd5" officeooo:paragraph-rsid="0016bdd5" fo:background-color="#ffdbb6" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="First_20_Page">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false" style:page-number="1" fo:background-color="transparent" fo:padding="0in" fo:border="none"/>
   </style:style>
@@ -653,7 +662,7 @@
   <style:master-page style:name="Standard" style:page-layout-name="pm1">
    <style:header>
     <text:p text:style-name="P1"><text:bookmark text:name="_leajue2ys1lr"/></text:p>
-    <text:p text:style-name="P2"><draw:frame draw:style-name="fr1" draw:name="image8.png" text:anchor-type="as-char" svg:width="6.5in" svg:height="0.028in" draw:z-index="13"><draw:image loext:mime-type="image/png">
+    <text:p text:style-name="P2"><draw:frame draw:style-name="fr1" draw:name="image8.png" text:anchor-type="as-char" svg:width="6.5in" svg:height="0.028in" draw:z-index="14"><draw:image loext:mime-type="image/png">
        <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABLAAAAAECAYAAACeNca/AAAAgElEQVR4Ae3YQQ0AIAwDQIZs
         BGEGUSyZij5uCprrXq13z1+OAAECBAgQIECAAAECBAgQIECAQKjADs0lFgECBAgQIECAAAEC
         BAgQIECAAIERMGB5BAIECBAgQIAAAQIECBAgQIAAgWgBA1Z0PcIRIECAAAECBAgQIECAAAEC
@@ -664,7 +673,7 @@
      </draw:frame></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P2"><draw:frame draw:style-name="fr1" draw:name="image4.png" text:anchor-type="as-char" svg:width="6.5in" svg:height="0.028in" draw:z-index="27"><draw:image loext:mime-type="image/png">
+    <text:p text:style-name="P2"><draw:frame draw:style-name="fr1" draw:name="image4.png" text:anchor-type="as-char" svg:width="6.5in" svg:height="0.028in" draw:z-index="29"><draw:image loext:mime-type="image/png">
        <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABLAAAAAECAYAAACeNca/AAAAgElEQVR4Ae3YQQ0AIAwDQIZs
         BGEGUSyZij5uCprrXq13z1+OAAECBAgQIECAAAECBAgQIECAQKjADs0lFgECBAgQIECAAAEC
         BAgQIECAAIERMGB5BAIECBAgQIAAAQIECBAgQIAAgWgBA1Z0PcIRIECAAAECBAgQIECAAAEC
@@ -673,7 +682,7 @@
       </draw:image>
       <svg:desc>horizontal line</svg:desc>
      </draw:frame></text:p>
-    <text:p text:style-name="P3"><text:page-number text:select-page="current">13</text:page-number></text:p>
+    <text:p text:style-name="P3"><text:page-number text:select-page="current">14</text:page-number></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="First_20_Page" style:display-name="First Page" style:page-layout-name="pm1" style:next-style-name="Standard">
@@ -681,7 +690,7 @@
     <text:p text:style-name="P4"/>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P2"><draw:frame draw:style-name="fr1" draw:name="image6.png" text:anchor-type="as-char" svg:width="6.5in" svg:height="0.028in" draw:z-index="14"><draw:image loext:mime-type="image/png">
+    <text:p text:style-name="P2"><draw:frame draw:style-name="fr1" draw:name="image6.png" text:anchor-type="as-char" svg:width="6.5in" svg:height="0.028in" draw:z-index="15"><draw:image loext:mime-type="image/png">
        <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABLAAAAAECAYAAACeNca/AAAAgElEQVR4Ae3YQQ0AIAwDQIZs
         BGEGUSyZij5uCprrXq13z1+OAAECBAgQIECAAAECBAgQIECAQKjADs0lFgECBAgQIECAAAEC
         BAgQIECAAIERMGB5BAIECBAgQIAAAQIECBAgQIAAgWgBA1Z0PcIRIECAAAECBAgQIECAAAEC
@@ -704,7 +713,7 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P55"><text:bookmark text:name="_mbjsiz6n6jlo"/><text:span text:style-name="T1">ADVANCED CYBER SECURITY CONCEPTS</text:span><text:span text:style-name="T2"><text:line-break/></text:span><text:span text:style-name="T3">Physical Security Development Environment Task</text:span></text:p>
+   <text:p text:style-name="P57"><text:bookmark text:name="_mbjsiz6n6jlo"/><text:span text:style-name="T1">ADVANCED CYBER SECURITY CONCEPTS</text:span><text:span text:style-name="T2"><text:line-break/></text:span><text:span text:style-name="T3">Physical Security Development Environment Task</text:span></text:p>
    <text:p text:style-name="P9"><text:span text:style-name="T8">Henry Post, </text:span><text:a xlink:type="simple" xlink:href="mailto:hpost@hawk.iit.edu" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T22">hpost@hawk.iit.edu</text:span></text:a></text:p>
    <text:p text:style-name="P38"><draw:frame draw:style-name="fr1" draw:name="image5.png" text:anchor-type="as-char" svg:width="6.5in" svg:height="0.0417in" draw:z-index="0"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABLAAAAAICAYAAADp9wbEAAAA3klEQVR4Ae3YQREAIRADweNk
@@ -3007,7 +3016,7 @@
    <text:p text:style-name="P31">In addition to this, certain surveillance tactics and strategies cannot be used in cities for sociopolitical reasons.</text:p>
    <text:p text:style-name="P31">Northern Nigeria is primarily farmland, villages, and shrubland. There are cities on the major roads, but there are still a lot of farmland and villages. The main physical threats that would be considered are terrorist groups, bandits, and rioters.</text:p>
    <text:p text:style-name="P32"><text:soft-page-break/><text:span text:style-name="T17">The site `state.gov`, operated by the U.S. Government, currently recommends strongly against traveling to Northern Nigeria. Also, the site `gov.uk` maintains a terrorism map for Nigeria at `</text:span><text:a xlink:type="simple" xlink:href="https://www.gov.uk/foreign-travel-advice/nigeria" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://www.gov.uk/foreign-travel-advice/nigeria</text:a><text:span text:style-name="T17">`:</text:span></text:p>
-   <text:p text:style-name="P30"><draw:frame draw:style-name="fr3" draw:name="Image1" text:anchor-type="as-char" svg:width="4.4791in" svg:height="3.3752in" draw:z-index="15"><draw:image loext:mime-type="image/png">
+   <text:p text:style-name="P30"><draw:frame draw:style-name="fr3" draw:name="Image1" text:anchor-type="as-char" svg:width="4.4791in" svg:height="3.3752in" draw:z-index="16"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAa4AAAFECAYAAAB/Ktp+AAL3EElEQVR4nOx9BZwd1fX/d2ae
        rGtWortxd5yQBK3g0P7afwsB6v39WtpS+7W/QpF6i5S64FClWIXiEKxY3N2z2c26v/dm5n/P
        OffOmzzWQpIi3csn7O57M3euzfHzPRHA9h14cGEDlgdqFv3Pt+FD/h5s/TdaM59/iahfUrKG
@@ -6664,21 +6673,27 @@
    <text:p text:style-name="P14">Watch Attack of the Drones: Is war becoming a video game? <text:a xlink:type="simple" xlink:href="https://www.youtube.com/watch?v=msHJLwYWX30" text:style-name="ListLabel_20_1" text:visited-style-name="ListLabel_20_1"><text:span text:style-name="T16">https://www.youtube.com/watch?v=msHJLwYWX30</text:span></text:a>. <text:s/>Provide 300 words regarding drones are not only used for war but use of drones domestically. <text:s/>You also have the ability to discuss the use of the Unmanned Ground Vehicle (UGV) created by iRobot and its applications to physical security.</text:p>
    <text:p text:style-name="P17">Provide answer below this line</text:p>
    <text:p text:style-name="Heading_20_1">Ethical considerations of using drones in physical security:</text:p>
-   <text:p text:style-name="P52">Using drones in physical security poses ethical issues whether they are remotely-operated, semi-autonomous, or fully autonomous.</text:p>
+   <text:p text:style-name="P53">Using drones in physical security poses ethical issues whether they are remotely-operated, semi-autonomous, or fully autonomous.</text:p>
    <text:p text:style-name="P50"><text:span text:style-name="T25">The first largest question is, do you have a right to record, surveil, and store audio, video, thermal imaging, and other data about a specific person, esp. against their knowledge or will? What procedures </text:span><text:span text:style-name="T26">exist to regulate the type of data, who it is disseminated to, and how long it is stored? This question can be applied to overseas use of drones as well as the domestic use of drones.</text:span></text:p>
-   <text:p text:style-name="P53">The next question is: In terms of lethal drones, or drones armed with weapons, what are the acceptable rules of engagement or rules for the use of force when engaging a target? What information must be certain to be known about the target? How much of that information is inferred? Can inferred information be used to support the reasoning for engaging a target?</text:p>
-   <text:p text:style-name="P53">Is wearing traditional muslim attire and moving in and out of a large building at a specific time enough to cause a drone operator to reasonably terrorist activity?</text:p>
+   <text:p text:style-name="P54">The next question is: In terms of lethal drones, or drones armed with weapons, what are the acceptable rules of engagement or rules for the use of force when engaging a target? What information must be certain to be known about the target? How much of that information is inferred? Can inferred information be used to support the reasoning for engaging a target?</text:p>
+   <text:p text:style-name="P54">Is wearing traditional muslim attire and moving in and out of a large building at a specific time enough to cause a drone operator to reasonably terrorist activity?</text:p>
    <text:p text:style-name="P51"><text:span text:style-name="T25">That being said, the effects that remotely piloting a lethal vehicle and engaging targets can have on operators can also be negative. Being disconnected from the battlefield by both </text:span><text:soft-page-break/><text:span text:style-name="T25">distance and sensory feedback can cause a rift between the </text:span><text:span text:style-name="T27">battlefield </text:span><text:span text:style-name="T25">situation and the actions of the operator. Operators of these vehicles may not be realistically affected by the reality of their actions. </text:span><text:span text:style-name="T27">Some suffer mental health issues as a result of their time spent remotely operating these drones.</text:span></text:p>
    <text:p text:style-name="Heading_20_1">Is war becoming a video game?</text:p>
-   <text:p text:style-name="P54"><text:span text:style-name="T6">Military remove-operated drones provide the ability for the military to extend its power without putting humans directly in harm’s way. This applies both to foreign and domestic situations. </text:span></text:p>
-   <text:p text:style-name="P54"><text:span text:style-name="T6">However, as we have seen in the previous videos, accountability and the emotional connection normally provided by soldiers is absent when piloting a drone remotely. This causes intelligence and decision-making deficiencies.</text:span></text:p>
-   <text:p text:style-name="P54"><text:span text:style-name="T6">Soldiers cannot interrogate people, interact with civilians or detained terrorists, observe their environment fully, or gather any intel past the drone’s visual/NV/IR sensors.</text:span></text:p>
-   <text:p text:style-name="P54"><text:span text:style-name="T6">This emotional detachment and intelligence deficiency brought on by the void between the remote drone operator and the battlefield does not apply to combat robots that are operated by soldiers on the battlefield. These can include quadriped, biped, flying, and tank-tread-style robots. These robots can be used in tactical situations to gather intelligence, traverse hazardous terrain, and neutralize threats.</text:span></text:p>
-   <text:p text:style-name="P54"><text:span text:style-name="T6">When you are in a safe steel container flying a drone that is thousands of miles away, you have no risk of being shot at, making an emergency landing, or having any kind of bodily harm inflicted upon you. You don’t need to gather intelligence on the ground, talk to civilians, or interrogate civilians. This will very likely change your behavior.</text:span></text:p>
+   <text:p text:style-name="P55"><text:span text:style-name="T6">Military remove-operated drones provide the ability for the military to extend its power without putting humans directly in harm’s way. This applies both to foreign and domestic situations. </text:span></text:p>
+   <text:p text:style-name="P55"><text:span text:style-name="T6">However, as we have seen in the previous videos, accountability and the emotional connection normally provided by soldiers is absent when piloting a drone remotely. This causes intelligence and decision-making deficiencies.</text:span></text:p>
+   <text:p text:style-name="P55"><text:span text:style-name="T6">Soldiers cannot interrogate people, interact with civilians or detained terrorists, observe their environment fully, or gather any intel past the drone’s visual/NV/IR sensors.</text:span></text:p>
+   <text:p text:style-name="P55"><text:span text:style-name="T6">This emotional detachment and intelligence deficiency brought on by the void between the remote drone operator and the battlefield does not apply to combat robots that are operated by soldiers on the battlefield. These can include quadriped, biped, flying, and tank-tread-style robots. These robots can be used in tactical situations to gather intelligence, traverse hazardous terrain, and neutralize threats.</text:span></text:p>
+   <text:p text:style-name="P55"><text:span text:style-name="T6">When you are in a safe steel container flying a drone that is thousands of miles away, you have no risk of being shot at, making an emergency landing, or having any kind of bodily harm inflicted upon you. You don’t need to gather intelligence on the ground, talk to civilians, or interrogate civilians. This will very likely change your behavior.</text:span></text:p>
    <text:p text:style-name="P33">Biometrics</text:p>
    <text:p text:style-name="P14">What is the important of the Crossover Error Rate (CER)? <text:s/>How can a small or midsize corporation implement the use of biometrics in their organization? <text:s/>Should strong authentication be implemented for the use of biometrics? <text:s/>Why are American citizens reluctant to the use of biometrics? Provide at least 300 words on this topic.</text:p>
    <text:p text:style-name="P17">Provide answer below this line</text:p>
-   <text:p text:style-name="P49">potato</text:p>
+   <text:p text:style-name="P56">The Crossover Error Rate is the point at which the FAR (false acceptance rate, incorrect entity is auth’d) and the FRR (false rejection rate, correct entity is rejected) are equal. This metric is usually used to measure the average accuracy of a biometric system.</text:p>
+   <text:p text:style-name="P56">A small or midsize corporation should realize that there must be a nonzero crossover error rate because biometrics measure a non-quantitative object: your skin, DNA, or physical features. They cannot be perfectly digitized!</text:p>
+   <text:p text:style-name="P56">This means that corporations should not rely on <text:span text:style-name="T4">only one</text:span> biometric auth option, and that <text:span text:style-name="T4">individuals should be allowed to fail one or more, but not all, biometric auth tests</text:span>. The thresholds for these values should depend on how difficult it should be to authenticate yourself, and how strict the biometric authentication should be.</text:p>
+   <text:p text:style-name="P56">In addition to this, biometric auth <text:span text:style-name="T4">must not</text:span> be the only form of authentication because it<text:span text:style-name="T4"> can always be spoofed</text:span>. Through physical seizure of biological materials, impersonation, hacking, force, or blackmail,<text:span text:style-name="T4"> </text:span>these authentication methods can be defeated by a large enough or determined enough threat. Strong authentication is a must when using biometrics, not only to fix the problems inherent in using a <text:s/>biological system to authenticate, but also because people’s physical features can change.</text:p>
+   <text:p text:style-name="P56">To be able to authenticate yourself using a physical feature means that the physical feature must be stored in a digital representation in some way. This means that your fingerprint scanner on your phone must store a digital representation of the features of your finger in some way, and a person could recreate a series of thumbprints that authenticate as if they were your thumbprint. This is very similar to cracking an MD5 hash through a brute-force attack.</text:p>
+   <text:p text:style-name="P56"><text:soft-page-break/>This is why Americans are afraid of bio auth: It stores an inherently reversible representation of their biological features. Data breaches can expose these and can be used by people to profile them based off of these features.</text:p>
+   <text:p text:style-name="P56">More importantly, once people have these biological signatures, they can be used to impersonate other bio auth systems! It’s password breaches all over again, but with faces and fingerprints!</text:p>
    <text:p text:style-name="P34">Graduate Students Only:</text:p>
    <text:p text:style-name="P14">The Most Dangerous Town on the Internet - Where Cybercrime Goes to Hide <text:a xlink:type="simple" xlink:href="https://www.youtube.com/watch?v=CashAq5RToM" text:style-name="ListLabel_20_1" text:visited-style-name="ListLabel_20_1"><text:span text:style-name="T16">https://www.youtube.com/watch?v=CashAq5RToM</text:span></text:a> <text:s/>Provide an 500 word response analyzing this video. <text:s/>Response can include the physical security surrounding various bunkers which should include physical access. <text:s/>Explain why secure places like this are in use and why they </text:p>
    <text:p text:style-name="P14">Read the following article: Weingart, S. H. (2000, August). Physical security devices for computer subsystems: A survey of attacks and defenses. In International Workshop on Cryptographic Hardware and Embedded Systems (pp. 302-317). Springer, Berlin, Heidelberg. Write a 500 word overview of his article. <text:s/>You may focus on any of the items contained in article. <text:s/>Read full article at <text:a xlink:type="simple" xlink:href="https://link.springer.com/content/pdf/10.1007/3-540-44499-8_24.pdf" text:style-name="ListLabel_20_1" text:visited-style-name="ListLabel_20_1"><text:span text:style-name="T16">https://link.springer.com/content/pdf/10.1007/3-540-44499-8_24.pdf</text:span></text:a> </text:p>
